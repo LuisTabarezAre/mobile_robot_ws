@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target cmd_joint_vel[0m
+[ 50%] Built target cmd_vel_mobile_controller
+[ 75%] [32mBuilding CXX object CMakeFiles/cmd_joint_vel.dir/examples/cmd_joint_vel_mobile.cpp.o[0m
+[01m[K/home/r2/mobile/src/mobile_description/examples/cmd_joint_vel_mobile.cpp:[m[K In member function ‘[01m[Kvoid MyCmdJointVel::control_loop()[m[K’:
+[01m[K/home/r2/mobile/src/mobile_description/examples/cmd_joint_vel_mobile.cpp:36:42:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kdouble rclcpp::Time::seconds() const[m[K’
+   36 |             auto time_now_=rclcpp::Time::[01;31m[Kseconds[m[K;
+      |                                          [01;31m[K^~~~~~~[m[K
+[01m[K/home/r2/mobile/src/mobile_description/examples/cmd_joint_vel_mobile.cpp:35:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kseconds_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   35 |             auto [01;35m[Kseconds_[m[K= time_.clock.sec;
+      |                  [01;35m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cmd_joint_vel.dir/build.make:76: CMakeFiles/cmd_joint_vel.dir/examples/cmd_joint_vel_mobile.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cmd_joint_vel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

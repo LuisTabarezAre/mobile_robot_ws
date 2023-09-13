@@ -1,0 +1,3 @@
+[console_scripts]
+cmd_vel_mobile_controller = my_py_controllers.cmd_vel_mobile:main
+

@@ -1,0 +1,12 @@
+[0.021s] Invoking command in '/home/r2/mobile/build/mobile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r2/mobile/install/my_py_controllers:/opt/ros/humble /usr/bin/cmake --build /home/r2/mobile/build/mobile_description -- -j6 -l6
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target cmd_joint_vel[0m
+[0.062s] [ 50%] Built target cmd_vel_mobile_controller
+[0.063s] [ 75%] [32mBuilding CXX object CMakeFiles/cmd_joint_vel.dir/examples/cmd_joint_vel_mobile.cpp.o[0m
+[1.965s] [01m[K/home/r2/mobile/src/mobile_description/examples/cmd_joint_vel_mobile.cpp:[m[K In member function ‘[01m[Kvoid MyCmdJointVel::control_loop()[m[K’:
+[1.966s] [01m[K/home/r2/mobile/src/mobile_description/examples/cmd_joint_vel_mobile.cpp:36:42:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kdouble rclcpp::Time::seconds() const[m[K’
+[1.966s]    36 |             auto time_now_=rclcpp::Time::[01;31m[Kseconds[m[K;
+[1.966s]       |                                          [01;31m[K^~~~~~~[m[K
+[4.100s] gmake[2]: *** [CMakeFiles/cmd_joint_vel.dir/build.make:76: CMakeFiles/cmd_joint_vel.dir/examples/cmd_joint_vel_mobile.cpp.o] Error 1
+[4.100s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cmd_joint_vel.dir/all] Error 2
+[4.100s] gmake: *** [Makefile:146: all] Error 2
+[4.102s] Invoked command in '/home/r2/mobile/build/mobile_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r2/mobile/install/my_py_controllers:/opt/ros/humble /usr/bin/cmake --build /home/r2/mobile/build/mobile_description -- -j6 -l6

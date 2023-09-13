@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/usr/include/**",
+                "/opt/ros/humble/include/rclcpp",
+                "/opt/ros/humble/include/geometry_msgs",
+                "/opt/ros/humble/include/rcl",
+                "/opt/ros/humble/include/std_msgs",
+                "/opt/ros/humble/include/sensor_msgs",
+                "/opt/ros/humble/include/rcutils",
+                "/opt/ros/humble/include/tf2_msgs",
+                "/opt/ros/humble/include/rosgraph_msgs",
+                "/opt/ros/humble/include/rmw"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+<robot name = "mobile" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:include filename = "common_mobile.xacro" />
+    <xacro:include filename = "mobile_gazebo.xacro" />
+    <xacro:include filename = "mobile.xacro" />
+    <xacro:include filename = "imu.xacro" />
+    <xacro:include filename = "lidar.xacro" />
+    <xacro:include filename = "camera.xacro" />
+
+</robot>

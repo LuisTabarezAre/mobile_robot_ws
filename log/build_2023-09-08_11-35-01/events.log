@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.000521] (mobile_description) JobQueued: {'identifier': 'mobile_description', 'dependencies': OrderedDict()}
+[0.000573] (my_py_controllers) JobQueued: {'identifier': 'my_py_controllers', 'dependencies': OrderedDict()}
+[0.000618] (mobile_description) JobStarted: {'identifier': 'mobile_description'}
+[0.009442] (my_py_controllers) JobStarted: {'identifier': 'my_py_controllers'}
+[0.017570] (mobile_description) JobProgress: {'identifier': 'mobile_description', 'progress': 'cmake'}
+[0.018133] (mobile_description) JobProgress: {'identifier': 'mobile_description', 'progress': 'build'}
+[0.018972] (mobile_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/r2/mobile/build/mobile_description', '--', '-j6', '-l6'], 'cwd': '/home/r2/mobile/build/mobile_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'es:en'), ('USER', 'r2'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r2'), ('OLDPWD', '/home/r2/mobile/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1829'), ('SYSTEMD_EXEC_PID', '2068'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4050'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r2/mobile/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r2'), ('JOURNAL_STREAM', '8:39509'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2024,unix/ubuntu:/tmp/.ICE-unix/2024'), ('INVOCATION_ID', '13583adc36684f0493b50b957584ec38'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DPXNA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/r2/mobile/install/my_py_controllers:/home/r2/mobile/install/mobile_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:77dba425-1924-4e45-a447-9e476f497620'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r2/mobile/build/mobile_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r2/mobile/install/mobile_description:/home/r2/mobile/install/my_py_controllers:/opt/ros/humble')]), 'shell': False}
+[0.053933] (mobile_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cmd_joint_vel\x1b[0m\n'}
+[0.063824] (mobile_description) StdoutLine: {'line': b'[ 50%] Built target cmd_vel_mobile_controller\n'}
+[0.065875] (mobile_description) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cmd_joint_vel.dir/examples/cmd_joint_vel_mobile.cpp.o\x1b[0m\n'}
+[0.098961] (-) TimerEvent: {}
+[0.199960] (-) TimerEvent: {}
+[0.300997] (-) TimerEvent: {}
+[0.402015] (-) TimerEvent: {}
+[0.503033] (-) TimerEvent: {}
+[0.558332] (my_py_controllers) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/r2/mobile/build/my_py_controllers/build'], 'cwd': '/home/r2/mobile/build/my_py_controllers', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'LANGUAGE': 'es:en', 'USER': 'r2', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/r2', 'OLDPWD': '/home/r2/mobile/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1829', 'SYSTEMD_EXEC_PID': '2068', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4050', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/r2/mobile/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r2', 'JOURNAL_STREAM': '8:39509', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'r2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2024,unix/ubuntu:/tmp/.ICE-unix/2024', 'INVOCATION_ID': '13583adc36684f0493b50b957584ec38', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DPXNA2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/r2/mobile/install/my_py_controllers:/home/r2/mobile/install/mobile_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:77dba425-1924-4e45-a447-9e476f497620', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/r2/mobile/build/my_py_controllers', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r2/mobile/build/my_py_controllers/prefix_override:/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/r2/mobile/install/mobile_description'}, 'shell': False}
+[0.604056] (-) TimerEvent: {}
+[0.705097] (-) TimerEvent: {}
+[0.785514] (my_py_controllers) StdoutLine: {'line': b'running develop\n'}
+[0.785910] (my_py_controllers) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.786080] (my_py_controllers) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.786639] (my_py_controllers) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.786749] (my_py_controllers) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.806072] (-) TimerEvent: {}
+[0.907147] (-) TimerEvent: {}
+[0.942962] (my_py_controllers) CommandEnded: {'returncode': 0}
+[0.945101] (my_py_controllers) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_controllers', 'build', '--build-base', '/home/r2/mobile/build/my_py_controllers/build', 'install', '--record', '/home/r2/mobile/build/my_py_controllers/install.log', '--single-version-externally-managed'], 'cwd': '/home/r2/mobile/src/my_py_controllers', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'LANGUAGE': 'es:en', 'USER': 'r2', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/r2', 'OLDPWD': '/home/r2/mobile/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '1829', 'SYSTEMD_EXEC_PID': '2068', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4050', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/r2/mobile/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'r2', 'JOURNAL_STREAM': '8:39509', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'r2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2024,unix/ubuntu:/tmp/.ICE-unix/2024', 'INVOCATION_ID': '13583adc36684f0493b50b957584ec38', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DPXNA2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/r2/mobile/install/my_py_controllers:/home/r2/mobile/install/mobile_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:77dba425-1924-4e45-a447-9e476f497620', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/r2/mobile/build/my_py_controllers', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/r2/mobile/build/my_py_controllers/prefix_override:/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/r2/mobile/install/mobile_description'}, 'shell': False}
+[1.008161] (-) TimerEvent: {}
+[1.105617] (my_py_controllers) StdoutLine: {'line': b'running egg_info\n'}
+[1.106115] (my_py_controllers) StdoutLine: {'line': b'writing ../../build/my_py_controllers/my_py_controllers.egg-info/PKG-INFO\n'}
+[1.106443] (my_py_controllers) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_controllers/my_py_controllers.egg-info/dependency_links.txt\n'}
+[1.106642] (my_py_controllers) StdoutLine: {'line': b'writing entry points to ../../build/my_py_controllers/my_py_controllers.egg-info/entry_points.txt\n'}
+[1.106816] (my_py_controllers) StdoutLine: {'line': b'writing requirements to ../../build/my_py_controllers/my_py_controllers.egg-info/requires.txt\n'}
+[1.107018] (my_py_controllers) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_controllers/my_py_controllers.egg-info/top_level.txt\n'}
+[1.108514] (-) TimerEvent: {}
+[1.108696] (my_py_controllers) StdoutLine: {'line': b"reading manifest file '../../build/my_py_controllers/my_py_controllers.egg-info/SOURCES.txt'\n"}
+[1.109391] (my_py_controllers) StdoutLine: {'line': b"writing manifest file '../../build/my_py_controllers/my_py_controllers.egg-info/SOURCES.txt'\n"}
+[1.109517] (my_py_controllers) StdoutLine: {'line': b'running build\n'}
+[1.109594] (my_py_controllers) StdoutLine: {'line': b'running build_py\n'}
+[1.109759] (my_py_controllers) StdoutLine: {'line': b'running install\n'}
+[1.109939] (my_py_controllers) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.110044] (my_py_controllers) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.110189] (my_py_controllers) StdoutLine: {'line': b'running install_lib\n'}
+[1.111088] (my_py_controllers) StdoutLine: {'line': b'running install_data\n'}
+[1.111531] (my_py_controllers) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.112706] (my_py_controllers) StdoutLine: {'line': b"removing '/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages/my_py_controllers-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.112991] (my_py_controllers) StdoutLine: {'line': b'Copying ../../build/my_py_controllers/my_py_controllers.egg-info to /home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages/my_py_controllers-0.0.0-py3.10.egg-info\n'}
+[1.113687] (my_py_controllers) StdoutLine: {'line': b'running install_scripts\n'}
+[1.132003] (my_py_controllers) StdoutLine: {'line': b'Installing cmd_vel_mobile_controller script to /home/r2/mobile/install/my_py_controllers/lib/my_py_controllers\n'}
+[1.132366] (my_py_controllers) StdoutLine: {'line': b"writing list of installed files to '/home/r2/mobile/build/my_py_controllers/install.log'\n"}
+[1.152753] (my_py_controllers) CommandEnded: {'returncode': 0}
+[1.167076] (my_py_controllers) JobEnded: {'identifier': 'my_py_controllers', 'rc': 0}
+[1.208690] (-) TimerEvent: {}
+[1.309199] (-) TimerEvent: {}
+[1.409761] (-) TimerEvent: {}
+[1.510789] (-) TimerEvent: {}
+[1.611373] (-) TimerEvent: {}
+[1.712419] (-) TimerEvent: {}
+[1.813450] (-) TimerEvent: {}
+[1.914462] (-) TimerEvent: {}
+[2.015493] (-) TimerEvent: {}
+[2.116518] (-) TimerEvent: {}
+[2.217542] (-) TimerEvent: {}
+[2.318571] (-) TimerEvent: {}
+[2.419591] (-) TimerEvent: {}
+[2.520617] (-) TimerEvent: {}
+[2.621661] (-) TimerEvent: {}
+[2.722305] (-) TimerEvent: {}
+[2.823328] (-) TimerEvent: {}
+[2.924363] (-) TimerEvent: {}
+[3.025386] (-) TimerEvent: {}
+[3.126406] (-) TimerEvent: {}
+[3.227425] (-) TimerEvent: {}
+[3.328460] (-) TimerEvent: {}
+[3.429482] (-) TimerEvent: {}
+[3.530512] (-) TimerEvent: {}
+[3.631528] (-) TimerEvent: {}
+[3.732553] (-) TimerEvent: {}
+[3.833580] (-) TimerEvent: {}
+[3.934619] (-) TimerEvent: {}
+[4.035639] (-) TimerEvent: {}
+[4.136322] (-) TimerEvent: {}
+[4.236881] (-) TimerEvent: {}
+[4.337980] (-) TimerEvent: {}
+[4.438405] (-) TimerEvent: {}
+[4.539018] (-) TimerEvent: {}
+[4.639440] (-) TimerEvent: {}
+[4.739870] (-) TimerEvent: {}
+[4.840412] (-) TimerEvent: {}
+[4.941038] (-) TimerEvent: {}
+[5.041398] (-) TimerEvent: {}
+[5.142159] (-) TimerEvent: {}
+[5.242550] (-) TimerEvent: {}
+[5.342942] (-) TimerEvent: {}
+[5.443338] (-) TimerEvent: {}
+[5.543699] (-) TimerEvent: {}
+[5.644065] (-) TimerEvent: {}
+[5.744438] (-) TimerEvent: {}
+[5.845611] (-) TimerEvent: {}
+[5.946038] (-) TimerEvent: {}
+[6.046406] (-) TimerEvent: {}
+[6.147653] (-) TimerEvent: {}
+[6.248588] (-) TimerEvent: {}
+[6.349272] (-) TimerEvent: {}
+[6.450270] (-) TimerEvent: {}
+[6.550842] (-) TimerEvent: {}
+[6.651770] (-) TimerEvent: {}
+[6.752317] (-) TimerEvent: {}
+[6.852944] (-) TimerEvent: {}
+[6.953995] (-) TimerEvent: {}
+[7.054680] (-) TimerEvent: {}
+[7.155682] (-) TimerEvent: {}
+[7.256721] (-) TimerEvent: {}
+[7.357493] (-) TimerEvent: {}
+[7.458759] (-) TimerEvent: {}
+[7.559804] (-) TimerEvent: {}
+[7.660838] (-) TimerEvent: {}
+[7.761886] (-) TimerEvent: {}
+[7.862289] (-) TimerEvent: {}
+[7.962928] (-) TimerEvent: {}
+[8.063934] (-) TimerEvent: {}
+[8.164711] (-) TimerEvent: {}
+[8.265736] (-) TimerEvent: {}
+[8.366701] (-) TimerEvent: {}
+[8.466990] (-) TimerEvent: {}
+[8.567538] (-) TimerEvent: {}
+[8.667942] (-) TimerEvent: {}
+[8.768350] (-) TimerEvent: {}
+[8.868776] (-) TimerEvent: {}
+[8.969867] (-) TimerEvent: {}
+[9.070911] (-) TimerEvent: {}
+[9.171292] (-) TimerEvent: {}
+[9.271716] (-) TimerEvent: {}
+[9.372563] (-) TimerEvent: {}
+[9.473087] (-) TimerEvent: {}
+[9.573593] (-) TimerEvent: {}
+[9.674115] (-) TimerEvent: {}
+[9.774643] (-) TimerEvent: {}
+[9.875162] (-) TimerEvent: {}
+[9.975825] (-) TimerEvent: {}
+[10.076681] (-) TimerEvent: {}
+[10.177201] (-) TimerEvent: {}
+[10.277719] (-) TimerEvent: {}
+[10.378260] (-) TimerEvent: {}
+[10.478761] (-) TimerEvent: {}
+[10.579292] (-) TimerEvent: {}
+[10.679808] (-) TimerEvent: {}
+[10.763366] (mobile_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cmd_joint_vel\x1b[0m\n'}
+[10.780314] (-) TimerEvent: {}
+[10.880840] (-) TimerEvent: {}
+[10.985170] (-) TimerEvent: {}
+[11.085672] (-) TimerEvent: {}
+[11.186098] (-) TimerEvent: {}
+[11.286944] (-) TimerEvent: {}
+[11.330408] (mobile_description) StdoutLine: {'line': b'[100%] Built target cmd_joint_vel\n'}
+[11.339804] (mobile_description) CommandEnded: {'returncode': 0}
+[11.364733] (mobile_description) JobProgress: {'identifier': 'mobile_description', 'progress': 'install'}
+[11.373222] (mobile_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/r2/mobile/build/mobile_description'], 'cwd': '/home/r2/mobile/build/mobile_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('LANGUAGE', 'es:en'), ('USER', 'r2'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/r2'), ('OLDPWD', '/home/r2/mobile/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1829'), ('SYSTEMD_EXEC_PID', '2068'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4050'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/r2/mobile/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'r2'), ('JOURNAL_STREAM', '8:39509'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'r2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2024,unix/ubuntu:/tmp/.ICE-unix/2024'), ('INVOCATION_ID', '13583adc36684f0493b50b957584ec38'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DPXNA2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/r2/mobile/install/my_py_controllers:/home/r2/mobile/install/mobile_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:77dba425-1924-4e45-a447-9e476f497620'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/r2/mobile/build/mobile_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/r2/mobile/install/mobile_description:/home/r2/mobile/install/my_py_controllers:/opt/ros/humble')]), 'shell': False}
+[11.379415] (mobile_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.380103] (mobile_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.380605] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//config/ekf.yaml\n'}
+[11.380844] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//config/mobile_velocity_controller.yaml\n'}
+[11.381228] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//examples/cmd_joint_vel_mobile.cpp\n'}
+[11.381475] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//examples/cmd_vel_mobile.cpp\n'}
+[11.381697] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//examples/odom_pub.cpp\n'}
+[11.382049] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//launch/display.launch.xml\n'}
+[11.382275] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//launch/mobile_example_velocity.launch.py\n'}
+[11.382659] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/base_link.STL\n'}
+[11.382885] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/camera_link.STL\n'}
+[11.384585] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/caster_base.STL\n'}
+[11.384665] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/caster_wheel_joint.STL\n'}
+[11.384726] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/jetson_link.STL\n'}
+[11.384781] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/left_wheel.STL\n'}
+[11.384856] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/lidar_link.STL\n'}
+[11.384949] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/right_wheel.STL\n'}
+[11.385029] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//rviz/rviz_config.rviz\n'}
+[11.385099] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/camera.xacro\n'}
+[11.385157] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/common_mobile.xacro\n'}
+[11.385211] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/imu.xacro\n'}
+[11.385266] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/lidar.xacro\n'}
+[11.385319] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile.urdf.xacro\n'}
+[11.385373] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile.xacro\n'}
+[11.385599] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile_gazebo.xacro\n'}
+[11.385662] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile_velocity.urdf.xacro\n'}
+[11.385725] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile_velocity.xacro\n'}
+[11.386042] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/lib/mobile_description/cmd_vel_mobile_controller\n'}
+[11.386320] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/lib/mobile_description/cmd_joint_vel\n'}
+[11.386698] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/ament_index/resource_index/package_run_dependencies/mobile_description\n'}
+[11.387051] (-) TimerEvent: {}
+[11.387233] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/ament_index/resource_index/parent_prefix_path/mobile_description\n'}
+[11.387545] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/ament_prefix_path.sh\n'}
+[11.387810] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/ament_prefix_path.dsv\n'}
+[11.388097] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/path.sh\n'}
+[11.388375] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/path.dsv\n'}
+[11.388660] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.bash\n'}
+[11.388937] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.sh\n'}
+[11.389444] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.zsh\n'}
+[11.389752] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.dsv\n'}
+[11.390006] (mobile_description) StdoutLine: {'line': b'-- Symlinking: /home/r2/mobile/install/mobile_description/share/mobile_description/package.dsv\n'}
+[11.397595] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/ament_index/resource_index/packages/mobile_description\n'}
+[11.397960] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/cmake/mobile_descriptionConfig.cmake\n'}
+[11.398256] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/cmake/mobile_descriptionConfig-version.cmake\n'}
+[11.398606] (mobile_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/package.xml\n'}
+[11.402099] (mobile_description) CommandEnded: {'returncode': 0}
+[11.447803] (mobile_description) JobEnded: {'identifier': 'mobile_description', 'rc': 0}
+[11.448193] (-) EventReactorShutdown: {}

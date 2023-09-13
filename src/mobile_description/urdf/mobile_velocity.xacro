@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <link name = "base_footprint"/>
+
+    <link name="base_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/base_link.STL" />
+            </geometry>
+            <material name="base_color"/>
+        </visual>
+        <inertial>
+            <origin xyz="0.0244864639489991 -7.4249953054828E-05 -0.058933613202508" rpy="0 0 0" />
+            <mass value="8.17467207120479" />
+            <inertia ixx="0.2172" ixy="0" ixz="0"
+                     iyy="0.3150" iyz="0"
+                     izz="0.1201" />
+        </inertial>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/base_link.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="wheel_r">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/right_wheel.STL" />
+            </geometry>
+            <material name = "wheels_color"/>
+        </visual>
+
+        <inertial>
+            <origin xyz="-1.91973104080034E-11 4.77013428756834E-11 -5.35416155855728E-12" rpy="0 0 0" />
+            <mass value="0.37615" />
+            <inertia  ixx="0.00000" ixy="0" ixz="0"
+                      iyy="0.00000" iyz="0"
+                      izz="0.00000" />
+        </inertial>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/right_wheel.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="wheel_l">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/left_wheel.STL" />
+            </geometry>
+            <material name="wheels_color" />
+        </visual>
+        <inertial>
+            <origin xyz="-3.01686453596517E-11 -1.08985154234631E-10 9.28856991322391E-12" rpy="0 0 0" />
+            <mass value="0.37615" />
+            <inertia  ixx="0.00000" ixy="0" ixz="0"
+                      iyy="0.00000" iyz="0"
+                      izz="0.00000" />
+        </inertial>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh
+                    filename="package://mobile_description/meshes/left_wheel.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="caster_base">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/caster_base.STL" />
+            </geometry>
+            <material name="caster_base_color" />
+        </visual>
+        <inertial>
+            <origin xyz="-0.0173199516674675 -8.40496822753778E-05 -0.0251211165009448" rpy="0 0 0" />
+            <mass value="0.322298539634388" />
+            <inertia  ixx="0.00037" ixy="0" ixz="0"
+                      iyy="0.00027" iyz="0"
+                      izz="0.00026" />
+        </inertial>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/caster_base.STL" />
+            </geometry>
+        </collision>
+    </link>
+  
+    <link name="caster_wheel">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/caster_wheel_joint.STL" />
+            </geometry>
+            <material name="wheels_color" />
+        </visual>
+        <inertial>
+            <origin xyz="0 1.11022302462516E-16 -2.22044604925031E-16" rpy="0 0 0" />
+            <mass value="0.32815" />
+            <inertia  ixx="0.00033" ixy="0" ixz="0"
+                      iyy="0.00033" iyz="0"
+                      izz="0.00059"/>
+        </inertial>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/caster_wheel_joint.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="lidar_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" /> 
+            <geometry> 
+                <mesh filename="package://mobile_description/meshes/lidar_link.STL" />
+            </geometry>
+            <material name = "lidar_color"/>
+        </visual>
+        <inertial>
+            <origin xyz="4.57461860614572E-08 3.53075102488276E-09 5.84767011480025E-08"
+                    rpy="0 0 0" />
+            <mass value="1.42959563219419" />
+            <inertia ixx="0" ixy="0" ixz="0"
+                     iyy="0" iyz="0"
+                     izz="0" />
+        </inertial>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/lidar_link.STL" />
+            </geometry>
+        </collision>
+  </link>
+
+    <link name="jetson_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/jetson_link.STL" />
+            </geometry>
+            <material name = "jetson_color" />
+        </visual>
+        <inertial>
+            <origin xyz="5.98835425691391E-11 -1.3714784863339E-09 1.34863675782526E-09"
+                    rpy="0 0 0" />
+            <mass value="0.0458228102344146" />
+            <inertia ixx="0" ixy="0" ixz="0"
+                     iyy="0" iyz="0"
+                     izz="0" />
+        </inertial>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry> 
+                <mesh filename="package://mobile_description/meshes/jetson_link.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="camera_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/camera_link.STL" />
+            </geometry>
+            <material name = "camera_color" />
+        </visual>
+        <inertial>
+            <origin xyz="2.22044604925031E-16 -1.11022302462516E-16 -1.11022302462516E-16" rpy="0 0 0" />
+            <mass value="0.176528845112646" />
+            <inertia ixx="0" ixy="0" ixz="0"
+                     iyy="0" iyz="0"
+                     izz="0" />
+        </inertial>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://mobile_description/meshes/camera_link.STL" />
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 0.16189" rpy="0.0 0.0 0.0"/>
+    </joint>
+
+    <joint name="joint_r" type="continuous">
+        <origin xyz="0.14306 -0.14171 -0.064" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="wheel_r" />
+        <axis xyz="0 1 0" />
+        <limit effort="6" velocity="20" />
+        <dynamics friction = "0.025" damping = "0.002" />
+    </joint>
+
+    <joint name="joint_l" type="continuous">
+        <origin xyz="0.14306 0.1417 -0.064" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="wheel_l" />
+        <axis xyz="0 1 0" />
+        <limit effort="6" velocity="20" />
+        <dynamics friction = "0.025" damping = "0.002" />
+    </joint>
+
+    <joint name="caster_q1" type="continuous">
+        <origin xyz="-0.24191 -0.0048728 -0.02594" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="caster_base" />
+        <axis xyz="0 0 -1" />
+        <dynamics friction = "0.100" damping = "0.0005" />
+    </joint>
+
+    <joint name="caster_q2" type="continuous">
+        <origin xyz="-0.044666 0 -0.067718" rpy="0 0 0" />
+        <parent link="caster_base" />
+        <child link="caster_wheel" />
+        <axis xyz="0 -1 0" />
+        <dynamics friction = "0.100" damping = "0.0005" />
+    </joint>
+
+    <joint name="lidar_joint" type="fixed">
+        <origin xyz="0.19534 8.3315E-05 0.067865" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="lidar_link" />
+        <axis xyz="0 0 0" />
+    </joint>
+
+    <joint name="jetson_joint" type="fixed">
+        <origin xyz="0.013612113767867 -0.000412817818330358 0.0120032008891607" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="jetson_link" />
+        <axis xyz="0 0 0" />
+    </joint>
+
+    <joint name="camera_joint" type="fixed">
+        <origin xyz="0.25849 0 0.017646" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="camera_link" />
+        <axis xyz="0 0 0" />
+    </joint>
+
+    <ros2_control name = "GazeboSystem" type = "system" >
+        <hardware>
+            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+        </hardware>
+        <joint name = "joint_l">
+            <command_interface name="velocity">
+                <param name="min">-20</param>
+                <param name="max">20</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+        <state_interface name="effort"/>
+        </joint>
+        <joint name = "joint_r">
+            <command_interface name="velocity">
+                <param name="min">-20</param>
+                <param name="max">20</param>
+            </command_interface>
+            <state_interface name="position"/>
+            <state_interface name="velocity"/>
+            <state_interface name="effort"/>
+        </joint>
+    </ros2_control>
+
+    <gazebo>
+        <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+            <parameters>$(find mobile_description)/config/mobile_velocity_controller.yaml</parameters>
+        </plugin>
+    </gazebo>
+
+</robot>

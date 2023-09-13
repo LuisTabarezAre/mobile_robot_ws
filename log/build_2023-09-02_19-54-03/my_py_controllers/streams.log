@@ -1,0 +1,30 @@
+[0.547s] Invoking command in '/home/r2/mobile/build/my_py_controllers': PYTHONPATH=/home/r2/mobile/build/my_py_controllers/prefix_override:/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r2/mobile/build/my_py_controllers/build
+[0.698s] running develop
+[0.698s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.698s]   warnings.warn(
+[0.699s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.699s]   warnings.warn(
+[0.817s] Invoked command in '/home/r2/mobile/build/my_py_controllers' returned '0': PYTHONPATH=/home/r2/mobile/build/my_py_controllers/prefix_override:/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/r2/mobile/build/my_py_controllers/build
+[0.819s] Invoking command in '/home/r2/mobile/src/my_py_controllers': PYTHONPATH=/home/r2/mobile/build/my_py_controllers/prefix_override:/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_controllers build --build-base /home/r2/mobile/build/my_py_controllers/build install --record /home/r2/mobile/build/my_py_controllers/install.log --single-version-externally-managed
+[0.979s] running egg_info
+[0.980s] writing ../../build/my_py_controllers/my_py_controllers.egg-info/PKG-INFO
+[0.980s] writing dependency_links to ../../build/my_py_controllers/my_py_controllers.egg-info/dependency_links.txt
+[0.980s] writing entry points to ../../build/my_py_controllers/my_py_controllers.egg-info/entry_points.txt
+[0.981s] writing requirements to ../../build/my_py_controllers/my_py_controllers.egg-info/requires.txt
+[0.981s] writing top-level names to ../../build/my_py_controllers/my_py_controllers.egg-info/top_level.txt
+[0.982s] reading manifest file '../../build/my_py_controllers/my_py_controllers.egg-info/SOURCES.txt'
+[0.983s] writing manifest file '../../build/my_py_controllers/my_py_controllers.egg-info/SOURCES.txt'
+[0.983s] running build
+[0.983s] running build_py
+[0.984s] running install
+[0.984s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.984s]   warnings.warn(
+[0.984s] running install_lib
+[0.985s] running install_data
+[0.985s] running install_egg_info
+[0.986s] removing '/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages/my_py_controllers-0.0.0-py3.10.egg-info' (and everything under it)
+[0.988s] Copying ../../build/my_py_controllers/my_py_controllers.egg-info to /home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages/my_py_controllers-0.0.0-py3.10.egg-info
+[0.989s] running install_scripts
+[1.002s] Installing cmd_vel_mobile_controller script to /home/r2/mobile/install/my_py_controllers/lib/my_py_controllers
+[1.003s] writing list of installed files to '/home/r2/mobile/build/my_py_controllers/install.log'
+[1.023s] Invoked command in '/home/r2/mobile/src/my_py_controllers' returned '0': PYTHONPATH=/home/r2/mobile/build/my_py_controllers/prefix_override:/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_controllers build --build-base /home/r2/mobile/build/my_py_controllers/build install --record /home/r2/mobile/build/my_py_controllers/install.log --single-version-externally-managed

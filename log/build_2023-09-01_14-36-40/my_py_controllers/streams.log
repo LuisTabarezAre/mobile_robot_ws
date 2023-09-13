@@ -1,0 +1,39 @@
+[0.636s] Invoking command in '/home/r2/mobile/src/my_py_controllers': PYTHONPATH=/home/r2/mobile/build/my_py_controllers/prefix_override:/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_controllers build --build-base /home/r2/mobile/build/my_py_controllers/build install --record /home/r2/mobile/build/my_py_controllers/install.log --single-version-externally-managed
+[0.837s] running egg_info
+[0.838s] creating ../../build/my_py_controllers/my_py_controllers.egg-info
+[0.838s] writing ../../build/my_py_controllers/my_py_controllers.egg-info/PKG-INFO
+[0.838s] writing dependency_links to ../../build/my_py_controllers/my_py_controllers.egg-info/dependency_links.txt
+[0.839s] writing entry points to ../../build/my_py_controllers/my_py_controllers.egg-info/entry_points.txt
+[0.839s] writing requirements to ../../build/my_py_controllers/my_py_controllers.egg-info/requires.txt
+[0.839s] writing top-level names to ../../build/my_py_controllers/my_py_controllers.egg-info/top_level.txt
+[0.839s] writing manifest file '../../build/my_py_controllers/my_py_controllers.egg-info/SOURCES.txt'
+[0.840s] reading manifest file '../../build/my_py_controllers/my_py_controllers.egg-info/SOURCES.txt'
+[0.841s] writing manifest file '../../build/my_py_controllers/my_py_controllers.egg-info/SOURCES.txt'
+[0.842s] running build
+[0.842s] running build_py
+[0.842s] creating /home/r2/mobile/build/my_py_controllers/build
+[0.842s] creating /home/r2/mobile/build/my_py_controllers/build/lib
+[0.842s] creating /home/r2/mobile/build/my_py_controllers/build/lib/my_py_controllers
+[0.842s] copying my_py_controllers/__init__.py -> /home/r2/mobile/build/my_py_controllers/build/lib/my_py_controllers
+[0.843s] copying my_py_controllers/cmd_vel_mobile.py -> /home/r2/mobile/build/my_py_controllers/build/lib/my_py_controllers
+[0.843s] running install
+[0.843s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.843s]   warnings.warn(
+[0.844s] running install_lib
+[0.844s] creating /home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages/my_py_controllers
+[0.844s] copying /home/r2/mobile/build/my_py_controllers/build/lib/my_py_controllers/__init__.py -> /home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages/my_py_controllers
+[0.845s] copying /home/r2/mobile/build/my_py_controllers/build/lib/my_py_controllers/cmd_vel_mobile.py -> /home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages/my_py_controllers
+[0.845s] byte-compiling /home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages/my_py_controllers/__init__.py to __init__.cpython-310.pyc
+[0.845s] byte-compiling /home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages/my_py_controllers/cmd_vel_mobile.py to cmd_vel_mobile.cpython-310.pyc
+[0.846s] running install_data
+[0.846s] creating /home/r2/mobile/install/my_py_controllers/share/ament_index
+[0.847s] creating /home/r2/mobile/install/my_py_controllers/share/ament_index/resource_index
+[0.847s] creating /home/r2/mobile/install/my_py_controllers/share/ament_index/resource_index/packages
+[0.847s] copying resource/my_py_controllers -> /home/r2/mobile/install/my_py_controllers/share/ament_index/resource_index/packages
+[0.847s] copying package.xml -> /home/r2/mobile/install/my_py_controllers/share/my_py_controllers
+[0.847s] running install_egg_info
+[0.848s] Copying ../../build/my_py_controllers/my_py_controllers.egg-info to /home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages/my_py_controllers-0.0.0-py3.10.egg-info
+[0.849s] running install_scripts
+[0.867s] Installing cmd_vel_mobile_controller script to /home/r2/mobile/install/my_py_controllers/lib/my_py_controllers
+[0.867s] writing list of installed files to '/home/r2/mobile/build/my_py_controllers/install.log'
+[0.889s] Invoked command in '/home/r2/mobile/src/my_py_controllers' returned '0': PYTHONPATH=/home/r2/mobile/build/my_py_controllers/prefix_override:/home/r2/mobile/install/my_py_controllers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_controllers build --build-base /home/r2/mobile/build/my_py_controllers/build install --record /home/r2/mobile/build/my_py_controllers/install.log --single-version-externally-managed

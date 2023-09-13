@@ -1,0 +1,1 @@
+/home/r2/mobile/build/mobile_description/ament_cmake_core/mobile_descriptionConfig-version.cmake

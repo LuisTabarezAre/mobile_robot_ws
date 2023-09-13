@@ -1,0 +1,6 @@
+Invoking command in '/home/r2/mobile/build/mobile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/r2/mobile/src/mobile_description -DCMAKE_INSTALL_PREFIX=/home/r2/mobile/install/mobile_description
+Invoked command in '/home/r2/mobile/build/mobile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/r2/mobile/src/mobile_description -DCMAKE_INSTALL_PREFIX=/home/r2/mobile/install/mobile_description
+Invoking command in '/home/r2/mobile/build/mobile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/r2/mobile/build/mobile_description -- -j2 -l2
+Invoked command in '/home/r2/mobile/build/mobile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/r2/mobile/build/mobile_description -- -j2 -l2
+Invoking command in '/home/r2/mobile/build/mobile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/r2/mobile/build/mobile_description
+Invoked command in '/home/r2/mobile/build/mobile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/r2/mobile/build/mobile_description

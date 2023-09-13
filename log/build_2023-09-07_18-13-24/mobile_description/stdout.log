@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target cmd_joint_vel[0m
+[ 50%] Built target cmd_vel_mobile_controller
+[ 75%] [32mBuilding CXX object CMakeFiles/cmd_joint_vel.dir/examples/cmd_joint_vel_mobile.cpp.o[0m

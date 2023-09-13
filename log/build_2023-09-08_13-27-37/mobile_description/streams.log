@@ -1,0 +1,57 @@
+[0.021s] Invoking command in '/home/r2/mobile/build/mobile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r2/mobile/install/my_py_controllers:/opt/ros/humble /usr/bin/cmake --build /home/r2/mobile/build/mobile_description -- -j6 -l6
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target cmd_joint_vel[0m
+[0.062s] [ 50%] Built target cmd_vel_mobile_controller
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/cmd_joint_vel.dir/examples/cmd_joint_vel_mobile.cpp.o[0m
+[2.123s] [01m[K/home/r2/mobile/src/mobile_description/examples/cmd_joint_vel_mobile.cpp:[m[K In member function ‘[01m[Kvoid MyCmdJointVel::odom_estimation(double, double&, double&, double&, double, double, double, double)[m[K’:
+[2.123s] [01m[K/home/r2/mobile/src/mobile_description/examples/cmd_joint_vel_mobile.cpp:131:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdtheta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.123s]   131 |             double [01;35m[Kdtheta[m[K=sdiff/b;
+[2.123s]       |                    [01;35m[K^~~~~~[m[K
+[9.466s] [100%] [32m[1mLinking CXX executable cmd_joint_vel[0m
+[9.932s] [100%] Built target cmd_joint_vel
+[9.939s] Invoked command in '/home/r2/mobile/build/mobile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r2/mobile/install/my_py_controllers:/opt/ros/humble /usr/bin/cmake --build /home/r2/mobile/build/mobile_description -- -j6 -l6
+[9.967s] Invoking command in '/home/r2/mobile/build/mobile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r2/mobile/install/my_py_controllers:/opt/ros/humble /usr/bin/cmake --install /home/r2/mobile/build/mobile_description
+[9.972s] -- Install configuration: ""
+[9.973s] -- Execute custom install script
+[9.973s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//config/ekf.yaml
+[9.973s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//config/mobile_velocity_controller.yaml
+[9.974s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//examples/cmd_joint_vel_mobile.cpp
+[9.974s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//examples/cmd_vel_mobile.cpp
+[9.974s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//examples/odom_pub.cpp
+[9.974s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//launch/display.launch.xml
+[9.975s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//launch/mobile_example_velocity.launch.py
+[9.975s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/base_link.STL
+[9.975s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/camera_link.STL
+[9.975s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/caster_base.STL
+[9.976s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/caster_wheel_joint.STL
+[9.976s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/jetson_link.STL
+[9.976s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/left_wheel.STL
+[9.976s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/lidar_link.STL
+[9.977s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/right_wheel.STL
+[9.977s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//rviz/rviz_config.rviz
+[9.977s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/camera.xacro
+[9.977s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/common_mobile.xacro
+[9.978s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/imu.xacro
+[9.978s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/lidar.xacro
+[9.978s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile.urdf.xacro
+[9.978s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile.xacro
+[9.978s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile_gazebo.xacro
+[9.979s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile_velocity.urdf.xacro
+[9.979s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile_velocity.xacro
+[9.979s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/lib/mobile_description/cmd_vel_mobile_controller
+[9.979s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/lib/mobile_description/cmd_joint_vel
+[9.980s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/ament_index/resource_index/package_run_dependencies/mobile_description
+[9.980s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/ament_index/resource_index/parent_prefix_path/mobile_description
+[9.980s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/ament_prefix_path.sh
+[9.981s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/ament_prefix_path.dsv
+[9.981s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/path.sh
+[9.981s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/path.dsv
+[9.981s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.bash
+[9.982s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.sh
+[9.982s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.zsh
+[9.982s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.dsv
+[9.982s] -- Symlinking: /home/r2/mobile/install/mobile_description/share/mobile_description/package.dsv
+[9.989s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/ament_index/resource_index/packages/mobile_description
+[9.989s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/cmake/mobile_descriptionConfig.cmake
+[9.989s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/cmake/mobile_descriptionConfig-version.cmake
+[9.989s] -- Up-to-date symlink: /home/r2/mobile/install/mobile_description/share/mobile_description/package.xml
+[9.991s] Invoked command in '/home/r2/mobile/build/mobile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/r2/mobile/install/my_py_controllers:/opt/ros/humble /usr/bin/cmake --install /home/r2/mobile/build/mobile_description

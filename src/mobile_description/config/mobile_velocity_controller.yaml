@@ -1,0 +1,28 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 500 # Hz
+
+    velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    imu_sensor_broadcaster:
+      type: imu_sensor_broadcaster/IMUSensorBroadcaster
+
+velocity_controller:
+  ros__parameters:
+    joints:
+      - joint_l
+      - joint_r
+    command_interfaces:
+      - velocity
+    state_interfaces:
+      - position
+      - velocity
+imu_sensor_broadcaster:
+  ros__parameters:
+    sensor_name: mobile_imu_sensor
+    frame_id: jetson_link
+

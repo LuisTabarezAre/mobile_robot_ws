@@ -1,0 +1,49 @@
+[0.013s] Invoking command in '/home/r2/mobile/build/mobile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/r2/mobile/build/mobile_description -- -j6 -l6
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/cmd_vel_mobile_controller.dir/examples/cmd_vel_mobile.cpp.o[0m
+[7.138s] [100%] [32m[1mLinking CXX executable cmd_vel_mobile_controller[0m
+[7.466s] [100%] Built target cmd_vel_mobile_controller
+[7.473s] Invoked command in '/home/r2/mobile/build/mobile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/r2/mobile/build/mobile_description -- -j6 -l6
+[7.492s] Invoking command in '/home/r2/mobile/build/mobile_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/r2/mobile/build/mobile_description
+[7.495s] -- Install configuration: ""
+[7.496s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//config
+[7.496s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//examples
+[7.496s] -- Installing: /home/r2/mobile/install/mobile_description/share/mobile_description//examples/cmd_vel_mobile.cpp
+[7.496s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//launch
+[7.496s] -- Installing: /home/r2/mobile/install/mobile_description/share/mobile_description//launch/display.launch.xml
+[7.496s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes
+[7.496s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/jetson_link.STL
+[7.496s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/caster_base.STL
+[7.497s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/base_link.STL
+[7.497s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/right_wheel.STL
+[7.497s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/lidar_link.STL
+[7.497s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/left_wheel.STL
+[7.497s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/camera_link.STL
+[7.497s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//meshes/caster_wheel_joint.STL
+[7.497s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//rviz
+[7.497s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//rviz/rviz_config.rviz
+[7.497s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf
+[7.497s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile_gazebo.xacro
+[7.497s] -- Installing: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile.urdf.xacro
+[7.497s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/common_mobile.xacro
+[7.498s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/camera.xacro
+[7.498s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/imu.xacro
+[7.498s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/mobile.xacro
+[7.498s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description//urdf/lidar.xacro
+[7.498s] -- Installing: /home/r2/mobile/install/mobile_description/lib/mobile_description/cmd_vel_mobile_controller
+[7.499s] -- Set runtime path of "/home/r2/mobile/install/mobile_description/lib/mobile_description/cmd_vel_mobile_controller" to ""
+[7.499s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/ament_index/resource_index/package_run_dependencies/mobile_description
+[7.499s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/ament_index/resource_index/parent_prefix_path/mobile_description
+[7.499s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/ament_prefix_path.sh
+[7.499s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/ament_prefix_path.dsv
+[7.499s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/path.sh
+[7.500s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description/environment/path.dsv
+[7.500s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.bash
+[7.500s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.sh
+[7.500s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.zsh
+[7.500s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description/local_setup.dsv
+[7.500s] -- Installing: /home/r2/mobile/install/mobile_description/share/mobile_description/package.dsv
+[7.500s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/ament_index/resource_index/packages/mobile_description
+[7.500s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description/cmake/mobile_descriptionConfig.cmake
+[7.500s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description/cmake/mobile_descriptionConfig-version.cmake
+[7.500s] -- Up-to-date: /home/r2/mobile/install/mobile_description/share/mobile_description/package.xml
+[7.502s] Invoked command in '/home/r2/mobile/build/mobile_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/r2/mobile/build/mobile_description
